@@ -6,7 +6,7 @@ const app = express();
 const BASE_URL = "http://143.44.136.110:6610";
 
 // Only allow this origin
-const allowedOrigin = "MIKUY IPTV";
+const allowedOrigin = "https://ragetb.onrender.com";
 
 // Strict CORS configuration
 app.use(cors({
