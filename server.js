@@ -3,7 +3,7 @@ const request = require("request");
 const cors = require("cors");
 
 const app = express();
-const BASE_URL = "http://143.44.136.110:6610";
+const BASE_URL = "http://136.239.159.18:6610";
 
 // Allow all origins
 app.use(cors());
